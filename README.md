@@ -1,2 +1,1 @@
-# diskusi-chatgpt
-Kumpulin Diskusi dengan ChatGPT
+Kumpulan Diskusi dengan ChatGPT
