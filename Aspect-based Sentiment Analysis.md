@@ -23,5 +23,3 @@ Aspect-Based Sentiment Analysis (ABSA) adalah sub-bidang dari analisis sentimen 
         5. [Lebmeier et al. (2022)](https://doi.org/10.1007/978-3-031-26390-3_31) mengeksplorasi reproduktivitas dan pelaporan ketidakpastian dalam analisis sentimen berbasis aspek. Penulis menggunakan berbagai _benchmark dataset_ yang tersedia untuk publik dan memperkenalkan pengaturan terkait pra-pemrosesan, pemisahan latihan/validasi, ukuran kinerja, dan kuantifikasi ketidakpastian (quantification of uncertainty).
 
     - **Autoencoders**: [Li et al. (2017)](https://aclanthology.org/P18-1087/) dan [Li et al. (2018)](https://arxiv.org/abs/1805.00760) menggunakan autoencoders untuk ekstraksi istilah aspek. Autoencoders dapat digunakan untuk pembelajaran fitur yang tidak diawasi (_unsupervised_) dalam data teks.
-
-4. **Metode Hibrida** mencoba menggabungkan kekuatan dari berbagai metode untuk meningkatkan kinerja. Wang et al. (2017) dan He & McAuley (2016) mengeksplorasi pendekatan hibrida dalam ABSA.
