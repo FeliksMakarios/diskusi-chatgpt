@@ -23,3 +23,27 @@ Aspect-Based Sentiment Analysis (ABSA) adalah sub-bidang dari analisis sentimen 
         5. [Lebmeier et al. (2022)](https://doi.org/10.1007/978-3-031-26390-3_31) mengeksplorasi reproduktivitas dan pelaporan ketidakpastian dalam analisis sentimen berbasis aspek. Penulis menggunakan berbagai _benchmark dataset_ yang tersedia untuk publik dan memperkenalkan pengaturan terkait pra-pemrosesan, pemisahan latihan/validasi, ukuran kinerja, dan kuantifikasi ketidakpastian (quantification of uncertainty).
 
     - **Autoencoders**: [Li et al. (2017)](https://aclanthology.org/P18-1087/) dan [Li et al. (2018)](https://arxiv.org/abs/1805.00760) menggunakan autoencoders untuk ekstraksi istilah aspek. Autoencoders dapat digunakan untuk pembelajaran fitur yang tidak diawasi (_unsupervised_) dalam data teks.
+  
+Tabel komparasi semua Paper yang sudah disebutkan di atas:
+
+| Penulis dan Tahun | Metode Penelitian | Algoritma Deep Learning | Dataset | Kinerja Model |
+|-------------------|-------------------|-------------------------|---------|---------------|
+| [Poria et al. (2016)](https://sentic.net/sarcasm-detection-with-deep-convolutional-neural-networks.pdf) | Analisis tweets sarkastik menggunakan CNN | CNN | Dataset tweets | Efektif dalam mendeteksi sarkasme |
+| [Ghadery et al. (2019)](https://arxiv.org/abs/1812.03361) | Deep learning untuk ekstraksi aspek dan klasifikasi sentimen | CNN, LSTM | Dataset ulasan | Meningkatkan akurasi dalam ekstraksi aspek dan klasifikasi sentimen |
+| [Pontiki et al. (2016)](https://aclanthology.org/S16-1002/) | Semeval-2016 task 5 untuk ABSA | - | Dataset Semeval-2016 | Menyediakan benchmark untuk ABSA |
+| [Ma et al. (2017)](https://arxiv.org/abs/1709.00893) | Interactive attention networks untuk ABSA | LSTM | Dataset ulasan produk | Memperbaiki akurasi dalam mengidentifikasi sentimen terkait aspek |
+| [He et al. (2018)](https://aclanthology.org/P18-2092/) | Memanfaatkan pengetahuan dokumen untuk ABSA | LSTM | Dataset ulasan | Memperbaiki kinerja dalam ABSA |
+| [Zhou et al. (2016)](https://aclanthology.org/D16-1058/) | Attention-based LSTM untuk ABSA | LSTM | Dataset ulasan | Efektif dalam menangkap informasi penting terkait aspek |
+| [Dos Santos & Gatti (2014)](https://aclanthology.org/C14-1008/) | CNN untuk analisis sentimen teks singkat | CNN | Dataset umum sentimen | Baik dalam analisis sentimen teks singkat |
+| [Kim (2014)](https://aclanthology.org/D14-1181/) | CNN untuk klasifikasi kalimat | CNN | Beberapa dataset teks | Efektif dalam klasifikasi teks |
+| [Tang et al. (2015)](https://aclanthology.org/D15-1167/) | RNN untuk klasifikasi sentimen dokumen | LSTM | Dataset ulasan | Baik dalam klasifikasi sentimen pada level dokumen |
+| [Liu et al. (2016)](https://www.ijcai.org/Proceedings/16/Papers/408.pdf) | RNN dengan pembelajaran multi-tugas | LSTM | Beberapa dataset klasifikasi teks | Efektif dengan pendekatan multi-tugas |
+| [Sun et al. (2019)](https://aclanthology.org/N19-1035/) | BERT untuk ABSA dengan kalimat tambahan | BERT | Dataset ulasan | Memperbaiki pemahaman konteks dalam ABSA |
+| [Xu et al. (2019)](https://aclanthology.org/N19-1242/) | Post-training BERT untuk ABMSA | BERT | Dataset ulasan | Meningkatkan akurasi dalam ABMSA |
+| [Singh et al. (2022)](https://doi.org/10.1002/cpe.7589) | DeBERTa untuk klasifikasi sentimen lintas domain | DeBERTa | - | Peningkatan kinerja dibandingkan metode klasifikasi sentimen lintas domain |
+| [Wang et al. (2020)](https://doi.org/10.1609/aaai.v34i10.7248) | Fine-tuning BERT dengan pendekatan berbasis fitur untuk ekstraksi aspek | BERT | - | Penggabungan fine-tuning BERT dengan pendekatan berbasis fitur meningkatkan kinerja |
+| [Yang et al. (2022)](https://doi.org/10.1016/j.ipm.2022.103038) | Model transformer untuk ABSA multimodal | Transformer | - | - |
+| [Yu et al. (2023)](https://doi.org/10.1109/TAFFC.2022.3171091) | HIMT untuk ABMSA multimodal | Transformer | - | - |
+| [Lebmeier et al. (2022)](https://doi.org/10.1007/978-3-031-26390-3_31) | Reproduktivitas dan pelaporan ketidakpastian dalam ABMSA | - | Benchmark dataset publik | Fokus pada pra-pemrosesan, pemisahan latihan/validasi, ukuran kinerja, dan kuantifikasi ketidakpastian |
+
+Catatan: Hyperlink mengarah ke sumber paper atau abstraknya. Untuk informasi lebih detail, silakan merujuk ke sumber asli.
